@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>STV-Tech class</string>
+	<key>Summary</key>
+	<string>STV-Tech class</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___FILEBASENAME___.storyboard</key>
+		<dict>
+			<key>path</key>
+			<string>___FILEBASENAME___.storyboard</string>
+		</dict>
+		<key>___FILEBASENAME___.swift</key>
+		<dict>
+			<key>path</key>
+			<string>___FILEBASENAME___.swift</string>
+		</dict>
+		<key>Regxp.swift</key>
+		<dict>
+			<key>path</key>
+			<string>Regxp.swift</string>
+		</dict>
+		<key>String+RegExp.swift</key>
+		<dict/>
+		<key>path</key>
+		<string>String+RegExp.swift</string>
+	</dict>
+	<key>Nodes</key>
+	<array>
+		<string>___FILEBASENAME___.storyboard</string>
+		<string>___FILEBASENAME___.swift</string>
+		<string>Regxp.swift</string>
+		<string>String+RegExp.swift</string>
+	</array>
+</dict>
+</plist>
